@@ -1,0 +1,1467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/modelo/contactos/GestorContactosOtimizado.java" description="        public GestorContactosNumaData(Contacto co..." line="160" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fc99390a-078b-4ee7-88ef-01c64bb83456" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="68332400">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="13" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.12" value="4" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.opened" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="ListaDuplaCircularBaseNaoOrdenada" value="1" />
+          <entry key="class" value="1" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="47" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="47" />
+          <entry key="UML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="288" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="288" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.spring.boot.run.usages" />
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
+    </session>
+    <session id="1868427651">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="iml" value="1" />
+          <entry key="java" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="29" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="29" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1984854232">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="47" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="47" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="4" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="2043383715">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Resolucoes" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/avaliacao_2018_2019/prova_escrita_continua/Automovel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/avaliacao_2018_2019/prova_escrita_continua/ComparacaoAutomoveis.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/avaliacao_2018_2019/prova_escrita_continua/Car.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/avaliacao_2018_2019/prova_escrita_continua/ComparacaoCars.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/colecoes/iteraveis/lineares/ordenadas/estruturas/ListaSimplesCircularBaseLimiteOrdenada.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>removerNo</find>
+      <find>prime</find>
+      <find>hash</find>
+      <find>main</find>
+      <find>initcompo</find>
+      <find>adicionar</find>
+      <find>pesquisa</find>
+      <find>ultimapesquisa</find>
+      <find>value</find>
+      <find>GestorContactos.INSTANCIA</find>
+      <find>inser</find>
+      <find>GestorContactos</find>
+      <find>consulta</find>
+      <find>is</find>
+      <find>ITERADOR_DUPLO_COLECAO_VAZIA_CONTACTOS</find>
+      <find>NoSuch</find>
+      <find>removerRecursivo</find>
+      <find>iterativo</find>
+      <find>equals</find>
+      <find>consul</find>
+      <find>return null</find>
+      <find>min</find>
+      <find>put</find>
+      <find>entry</find>
+      <find>inserir</find>
+      <find>con</find>
+      <find>consultar</find>
+      <find>consult</find>
+      <find>remover</find>
+      <find>removert</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>numeroElementos</replace>
+      <replace>gestaoContactos</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/colecoes/iteraveis/associativas/estruturas/TabelaHashPorSondagemComIncrementoQuadratico.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/colecoes/iteraveis/associativas/estruturas/TabelaHashPorSondagemComIncrementoLinear.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/colecoes/iteraveis/associativas/estruturas/TabelaHashPorSondagemComIncrementoPorHash.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/modelo/pessoas/hashings/HashingIncremento.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/colecoes/iteraveis/associativas/utilizacao/MainPraticaGestorContactosOtimizado.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/modelo/contactos/GestorContactosOtimizado2.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/modelo/contactos/GestorContactosOtimizadoAvancado.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/colecoes/iteraveis/lineares/ordenadas/estruturas/ListaSimplesCircularBaseLimiteOrdenadaDistinta.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/modelo/contactos/GestorContactosAvancado.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/colecoes/iteraveis/associativas/utilizacao/MainPraticaGestorContactosOtimizado2.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/modelo/contactos/Data.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/colecoes/iteraveis/associativas/utilizacao/MainTeoricaTabelaHashPorSondagemComIncrementoPorHash.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/colecoes/iteraveis/associativas/utilizacao/MainTeoricaTabelaHashPorSondagemComIncrementoQuadratico.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/colecoes/iteraveis/associativas/utilizacao/MainTeoricaTabelaHashPorSondagemComIncrementoLinear.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/colecoes/iteraveis/associativas/estruturas/TabelaHashPorSondagem.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/colecoes/iteraveis/associativas/utilizacao/MainPraticaGestorContactosOtimizadoContinuacao.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/modelo/contactos/comparadores/ComparacaoLimiteParesDataListaContactosPorDataAscendente.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/colecoes/iteraveis/lineares/ordenadas/utilizacao/MainPraticaArvoreBinariaComBase.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/colecoes/iteraveis/lineares/ordenadas/utilizacao/MainPraticaArvoreBinaria.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/colecoes/iteraveis/lineares/ordenadas/estruturas/IteradorEmOrdemSuper.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/modelo/contactos/GestorContactos.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/colecoes/naoiteraveis/estruturas/Pilha.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/colecoes/iteraveis/lineares/ordenadas/estruturas/ListaDuplaCircularBaseLimiteOrdenada.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/colecoes/iteraveis/lineares/ordenadas/utilizacao/MainTeoricaArvoreBinaria.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/colecoes/iteraveis/lineares/ordenadas/utilizacao/MainTeoricaArvoreBinariaUrbano.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/colecoes/iteraveis/lineares/ordenadas/estruturas/ArvoreBinaria.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/modelo/contactos/Contacto.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/modelo/contactos/GestorContactosOtimizado.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/modelo/contactos/GestorContactosOtimizadoAvaliacao.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/colecoes/iteraveis/IteradorIteravelDuplo.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/modelo/contactos/IteradorIteravelDuploIndexado.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/Example.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/OtherClass.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/colecoes/iteraveis/lineares/naoordenadas/ColecaoIteravelLinearNaoOrdenada.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/analisecomplexidade/utilizacao/MainTeoricaComparacaoSubsequenciaSomaMaxima.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/utils/Estatistica.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/colecoes/iteraveis/lineares/naoordenadas/estruturas/ListaDuplaNaoOrdenada.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/colecoes/iteraveis/lineares/naoordenadas/estruturas/ListaSimplesNaoOrdenada.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/colecoes/iteraveis/lineares/naoordenadas/estruturas/ListaSimplesCircularBaseNaoOrdenada.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/avaliacao_2018_2019/prova_escrita_continua/PesquisaBinariaCompleta.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/avaliacao_2018_2019/prova_escrita_continua/MainAvaliacaoPesquisaBinariaCompleta.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/avaliacao_2018_2019/prova_escrita_continua/PesquisaLinearCompletaEmSequenciaNaoOrdenada.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/avaliacao_2018_2019/prova_escrita_continua/AlgoritmoPesquisaCompleta.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/avaliacao_2018_2019/prova_escrita_continua/PesquisaLinearCompletaEmSequenciaOrdenada.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/avaliacao_2018_2019/prova_escrita_continua/MainTeoricaPesquisaLinearCompletaEmSequenciaNaoOrdenada.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/avaliacao_2018_2019/prova_escrita_continua/MainAvaliacaoPesquisaLinearCompletaEmSequenciaOrdenada.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/avaliacao_2018_2019/prova_escrita_continua/Automovel.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/avaliacao_2018_2019/prova_escrita_continua/ComparacaoAutomoveis.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/avaliacao_2018_2019/prova_escrita_continua/Car.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/avaliacao_2018_2019/prova_escrita_continua/ComparacaoCars.java" />
+        <option value="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/colecoes/iteraveis/lineares/ordenadas/estruturas/ListaSimplesCircularBaseLimiteOrdenada.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="10" />
+    <option name="width" value="1205" />
+    <option name="height" value="665" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Kotlin</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Resolucoes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Resolucoes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Resolucoes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Resolucoes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="resolucoes" />
+    <property name="SearchEverywhereHistoryKey" value="ListaLi&#9;PSI&#9;JAVA://pt.ipleiria.estg.dei.aed.colecoes.iteraveis.lineares.ordenadas.estruturas.ListaSimplesCircularBaseLimiteOrdenada&#10;cpna&#9;PSI&#9;JAVA://pt.ipleiria.estg.dei.aed.modelo.pessoas.comparadores.ComparacaoPessoasPorNomeAscendente&#10;cp&#9;PSI&#9;JAVA://pt.ipleiria.estg.dei.aed.modelo.pessoas.comparadores.ComparacaoPessoasPorBIAscendente&#10;elementova&#9;PSI&#9;JAVA://pt.ipleiria.estg.dei.aed.ComparacaoLimite#isElementoValido&#10;tabelahas&#9;FILE&#9;file:///Users/joaoramos/MEOCloud/2017_2018_AED/Resolucoes/src/pt/ipleiria/estg/dei/aed/colecoes/iteraveis/associativas/estruturas/TabelaHashPorSondagem.java&#10;listadupla&#9;FILE&#9;file:///Users/joaoramos/MEOCloud/2017_2018_AED/Resolucoes/src/pt/ipleiria/estg/dei/aed/colecoes/iteraveis/lineares/ordenadas/estruturas/ListaDuplaCircularBaseLimiteOrdenada.java&#10;compa&#9;FILE&#9;file:///Users/joaoramos/MEOCloud/2017_2018_AED/Resolucoes/src/pt/ipleiria/estg/dei/aed/modelo/contactos/comparadores/ComparacaoLimiteContactosPorPrimeiroNomeAscendenteSeguidoPorUltimoNomeAscendente.java&#10;listadupl&#9;FILE&#9;file:///Users/joaoramos/MEOCloud/2017_2018_AED/Resolucoes/src/pt/ipleiria/estg/dei/aed/colecoes/iteraveis/lineares/ordenadas/estruturas/ListaDuplaCircularBaseLimiteOrdenada.java&#10;ldcbl&#9;FILE&#9;file://C:/MEO/2017_2018_AED/Resolucoes/src/pt/ipleiria/estg/dei/aed/colecoes/iteraveis/lineares/ordenadas/estruturas/ListaDuplaCircularBaseLimiteOrdenadaDistinta.java&#10;hashtable&#9;PSI&#9;JAVA://java.util.Hashtable&#10;hashmap&#9;PSI&#9;JAVA://java.util.HashMap&#10;tabelaha&#9;FILE&#9;file:///Users/joaoramos/MEOCloud/2017_2018_AED/Resolucoes/src/pt/ipleiria/estg/dei/aed/colecoes/iteraveis/associativas/estruturas/TabelaHashPorSondagem.java&#10;hashingin&#9;FILE&#9;file:///Users/joaoramos/MEOCloud/2017_2018_AED/Resolucoes/src/pt/ipleiria/estg/dei/aed/modelo/pessoas/hashings/HashingIncremento.java&#10;hashing bi&#9;PSI&#9;JAVA://pt.ipleiria.estg.dei.aed.modelo.pessoas.hashings.HashingBI&#10;getIndice&#9;PSI&#9;JAVA://pt.ipleiria.estg.dei.aed.colecoes.iteraveis.associativas.estruturas.TabelaHashPorSondagem#getIndiceTabela&#10;extract&#9;ACTION&#9;IntroduceActionsGroup&#10;generate&#9;ACTION&#9;Generate&#10;contacto&#9;PSI&#9;JAVA://pt.ipleiria.estg.dei.aed.modelo.contactos.Contacto&#10;column&#9;ACTION&#9;EditorToggleColumnMode&#10;contactosPorData&#9;PSI&#9;JAVA://pt.ipleiria.estg.dei.aed.modelo.contactos.GestorContactos#contactosPorDataNascimento&#10;LinkedHashMap&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/LinkedHashMap.java&#10;Map&#9;ACTION&#9;ChangeKeymap&#10;hashm&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_131/jre/lib/rt.jar!/java/util/IdentityHashMap.class&#10;HashMap&#9;PSI&#9;JAVA://java.util.HashMap&#10;MLSCBL&#9;FILE&#9;file://C:/MEO/2017_2018_AED/Resolucoes/src/pt/ipleiria/estg/dei/aed/colecoes/iteraveis/lineares/ordenadas/utilizacao/MainTeoricaListaSimplesCircularBaseLimiteOrdenada.java&#10;ListItera&#9;PSI&#9;JAVA://java.util.ListIterator&#10;ListaSimplesNaoO&#9;PSI&#9;JAVA://pt.ipleiria.estg.dei.aed.colecoes.iteraveis.lineares.naoordenadas.estruturas.ListaSimplesNaoOrdenada&#10;Coleca&#9;PSI&#9;JAVA://pt.ipleiria.estg.dei.aed.colecoes.iteraveis.lineares.naoordenadas.ColecaoIteravelLinearNaoOrdenada" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542128179196" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\MEO\2017_2018_AED\Resolucoes\src\pt\ipleiria\estg\dei\aed\colecoes\iteraveis\associativas\utilizacao" />
+      <recent name="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/colecoes/iteraveis/lineares/ordenadas/utilizacao" />
+      <recent name="C:\MEO\2017_2018_AED\Resolucoes\src\pt\ipleiria\estg\dei\aed\modelo\contactos" />
+      <recent name="$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/modelo" />
+      <recent name="C:\MEO\2017_2018_AED\Resolucoes\src\pt\ipleiria\estg\dei\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="pt.ipleiria.estg.dei.aed.colecoes.iteraveis.lineares.ordenadas.estruturas" />
+      <recent name="pt.ipleiria.estg.dei.aed.modelo.contactos" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\MeoCloud\2017_2018_AED\Resolucoes\src\pt\ipleiria\estg\dei\aed\modelo\contactos\comparadores" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pt.ipleiria.estg.dei.aed.avaliacao_2018_2019.prova_escrita_continua" />
+      <recent name="pt.ipleiria.estg.dei.aed.modelo.contactos" />
+      <recent name="pt.ipleiria.estg.dei.aed.colecoes.iteraveis.lineares.ordenadas.utilizacao" />
+      <recent name="pt.ipleiria.estg.dei.aed.recursividade.utilizacao" />
+      <recent name="pt.ipleiria.estg.dei.aed.recursividade.algoritmos" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pt.ipleiria.estg.dei.aed.avaliacao_2018_2019.prova_escrita_continua" />
+      <recent name="pt.ipleiria.estg.dei.aed" />
+      <recent name="pt.ipleiria.estg.dei.aed.modelo.contactos" />
+      <recent name="pt.ipleiria.estg.dei.aed.modelo.contactos.hashings" />
+      <recent name="pt.ipleiria.estg.dei.aed.modelo.contactos.comparadores" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MainAvaliacaoPesquisaLinearCompletaEmSequenciaOrdenada">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainAvaliacaoPesquisaLinearCompletaEmSequenciaOrdenada" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pt.ipleiria.estg.dei.aed.avaliacao_2018_2019.prova_escrita_continua.MainAvaliacaoPesquisaLinearCompletaEmSequenciaOrdenada" />
+      <module name="Resolucoes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pt.ipleiria.estg.dei.aed.avaliacao_2018_2019.prova_escrita_continua.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTeoricaArvoreBinaria" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pt.ipleiria.estg.dei.aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria" />
+      <module name="Resolucoes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pt.ipleiria.estg.dei.aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTeoricaComparacaoSubsequenciaSomaMaxima" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pt.ipleiria.estg.dei.aed.analisecomplexidade.utilizacao.MainTeoricaComparacaoSubsequenciaSomaMaxima" />
+      <module name="Resolucoes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pt.ipleiria.estg.dei.aed.analisecomplexidade.utilizacao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTeoricaPesquisaLinearCompletaEmSequenciaNaoOrdenada" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pt.ipleiria.estg.dei.aed.avaliacao_2018_2019.prova_escrita_continua.MainTeoricaPesquisaLinearCompletaEmSequenciaNaoOrdenada" />
+      <module name="Resolucoes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pt.ipleiria.estg.dei.aed.avaliacao_2018_2019.prova_escrita_continua.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OtherClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pt.ipleiria.estg.dei.aed.OtherClass" />
+      <module name="Resolucoes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pt.ipleiria.estg.dei.aed.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MainTeoricaArvoreBinaria" />
+      <item itemvalue="Application.OtherClass" />
+      <item itemvalue="Application.MainTeoricaComparacaoSubsequenciaSomaMaxima" />
+      <item itemvalue="Application.MainTeoricaPesquisaLinearCompletaEmSequenciaNaoOrdenada" />
+      <item itemvalue="Application.MainAvaliacaoPesquisaLinearCompletaEmSequenciaOrdenada" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainAvaliacaoPesquisaLinearCompletaEmSequenciaOrdenada" />
+        <item itemvalue="Application.MainTeoricaPesquisaLinearCompletaEmSequenciaNaoOrdenada" />
+        <item itemvalue="Application.MainTeoricaComparacaoSubsequenciaSomaMaxima" />
+        <item itemvalue="Application.OtherClass" />
+        <item itemvalue="Application.MainTeoricaArvoreBinaria" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructuralSearchPlugin">
+    <searchConfiguration name="user defined" created="1511305595900" text="numeroElementos == 0" recursive="false" caseInsensitive="true" type="JAVA" history="1">
+      <constraint name="__context__" target="true" within="" contains="" />
+    </searchConfiguration>
+    <replaceConfiguration name="user defined" created="1509854346625" text="atual" recursive="false" caseInsensitive="true" type="JAVA" reformatAccordingToStyle="true" shortenFQN="true" useStaticImport="true" replacement="cor" history="1" />
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",VISIBILITY_SORTER" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc99390a-078b-4ee7-88ef-01c64bb83456" name="Default" comment="" />
+      <created>1509469574018</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1509469574018</updated>
+      <workItem from="1509469575666" duration="401000" />
+      <workItem from="1509470010888" duration="132000" />
+      <workItem from="1509470193095" duration="42000" />
+      <workItem from="1509466675345" duration="17000" />
+      <workItem from="1509470471513" duration="2931000" />
+      <workItem from="1509577249590" duration="12000" />
+      <workItem from="1509583137791" duration="40000" />
+      <workItem from="1509583321650" duration="1456000" />
+      <workItem from="1509610254951" duration="38000" />
+      <workItem from="1509610321930" duration="149000" />
+      <workItem from="1509620646659" duration="12000" />
+      <workItem from="1509636823471" duration="6229000" />
+      <workItem from="1509661472048" duration="1126000" />
+      <workItem from="1509663888075" duration="1271000" />
+      <workItem from="1509700349350" duration="10000" />
+      <workItem from="1509702036593" duration="1194000" />
+      <workItem from="1509708797515" duration="1492000" />
+      <workItem from="1509710662833" duration="221000" />
+      <workItem from="1509710918330" duration="1179000" />
+      <workItem from="1509720305752" duration="157000" />
+      <workItem from="1509720559385" duration="388000" />
+      <workItem from="1509728694210" duration="75000" />
+      <workItem from="1509732483369" duration="1018000" />
+      <workItem from="1509744697681" duration="511000" />
+      <workItem from="1509847427901" duration="19111000" />
+      <workItem from="1509970599222" duration="10056000" />
+      <workItem from="1509998922818" duration="4247000" />
+      <workItem from="1510012456464" duration="1859000" />
+      <workItem from="1510017336733" duration="5257000" />
+      <workItem from="1510053004815" duration="417000" />
+      <workItem from="1510066320861" duration="7325000" />
+      <workItem from="1510074980423" duration="798000" />
+      <workItem from="1510096414876" duration="3779000" />
+      <workItem from="1510136116299" duration="2610000" />
+      <workItem from="1510155684880" duration="3294000" />
+      <workItem from="1510179943694" duration="1055000" />
+      <workItem from="1510191607979" duration="880000" />
+      <workItem from="1510193048689" duration="387000" />
+      <workItem from="1510226422825" duration="80000" />
+      <workItem from="1510228131525" duration="1166000" />
+      <workItem from="1510241057573" duration="7023000" />
+      <workItem from="1510270680412" duration="1968000" />
+      <workItem from="1510305377445" duration="5000" />
+      <workItem from="1510308429255" duration="395000" />
+      <workItem from="1510311218150" duration="2739000" />
+      <workItem from="1510325168020" duration="108000" />
+      <workItem from="1510325502880" duration="3909000" />
+      <workItem from="1510329958253" duration="1553000" />
+      <workItem from="1510337596175" duration="66000" />
+      <workItem from="1510338886023" duration="116000" />
+      <workItem from="1510339048807" duration="472000" />
+      <workItem from="1510356501642" duration="1157000" />
+      <workItem from="1510363418033" duration="799000" />
+      <workItem from="1510364237885" duration="2238000" />
+      <workItem from="1510452062819" duration="697000" />
+      <workItem from="1510452856230" duration="8141000" />
+      <workItem from="1510528811875" duration="6000" />
+      <workItem from="1510529968853" duration="9106000" />
+      <workItem from="1510574022716" duration="5722000" />
+      <workItem from="1510610262886" duration="10502000" />
+      <workItem from="1510671156151" duration="143000" />
+      <workItem from="1510671330441" duration="394000" />
+      <workItem from="1510671895424" duration="1067000" />
+      <workItem from="1510703461052" duration="1351000" />
+      <workItem from="1510705603000" duration="377000" />
+      <workItem from="1510706024668" duration="533000" />
+      <workItem from="1510706815252" duration="39000" />
+      <workItem from="1510745186577" duration="91000" />
+      <workItem from="1510749818780" duration="1497000" />
+      <workItem from="1510752427182" duration="67000" />
+      <workItem from="1510754292572" duration="6435000" />
+      <workItem from="1510791894853" duration="2099000" />
+      <workItem from="1510830109785" duration="82000" />
+      <workItem from="1510830648292" duration="8000" />
+      <workItem from="1510846331146" duration="187000" />
+      <workItem from="1510846575768" duration="9493000" />
+      <workItem from="1510871922400" duration="9281000" />
+      <workItem from="1510931482239" duration="4864000" />
+      <workItem from="1510938090572" duration="1788000" />
+      <workItem from="1510942936924" duration="110000" />
+      <workItem from="1510943428289" duration="142000" />
+      <workItem from="1510944765818" duration="5924000" />
+      <workItem from="1510953397872" duration="19000" />
+      <workItem from="1511048408485" duration="28000" />
+      <workItem from="1511048534776" duration="811000" />
+      <workItem from="1511052695108" duration="21000" />
+      <workItem from="1511197648374" duration="4037000" />
+      <workItem from="1511276900823" duration="258000" />
+      <workItem from="1511277279432" duration="1391000" />
+      <workItem from="1511305497437" duration="11484000" />
+      <workItem from="1511359422664" duration="4619000" />
+      <workItem from="1511394043917" duration="11000" />
+      <workItem from="1511451513824" duration="995000" />
+      <workItem from="1511466969248" duration="6708000" />
+      <workItem from="1511514718166" duration="81000" />
+      <workItem from="1511523433506" duration="4600000" />
+      <workItem from="1511535312629" duration="5982000" />
+      <workItem from="1511545197798" duration="720000" />
+      <workItem from="1511559253568" duration="17000" />
+      <workItem from="1511603656825" duration="1022000" />
+      <workItem from="1511605146515" duration="32000" />
+      <workItem from="1511732717655" duration="1499000" />
+      <workItem from="1511735952098" duration="12735000" />
+      <workItem from="1511790496322" duration="12411000" />
+      <workItem from="1511808413293" duration="5023000" />
+      <workItem from="1511821912394" duration="325000" />
+      <workItem from="1511822253089" duration="32000" />
+      <workItem from="1511822359784" duration="59000" />
+      <workItem from="1511822733148" duration="1630000" />
+      <workItem from="1511826582402" duration="669000" />
+      <workItem from="1511828693110" duration="18000" />
+      <workItem from="1511828960251" duration="953000" />
+      <workItem from="1511830905380" duration="6730000" />
+      <workItem from="1511865543513" duration="810000" />
+      <workItem from="1511866912990" duration="5695000" />
+      <workItem from="1511880782330" duration="1714000" />
+      <workItem from="1511885767452" duration="385000" />
+      <workItem from="1511912176671" duration="680000" />
+      <workItem from="1511924350584" duration="600000" />
+      <workItem from="1511954296970" duration="596000" />
+      <workItem from="1511976667144" duration="20000" />
+      <workItem from="1512040369858" duration="26000" />
+      <workItem from="1512043668606" duration="1000" />
+      <workItem from="1512054698790" duration="462000" />
+      <workItem from="1512077971778" duration="10000" />
+      <workItem from="1512146578966" duration="93000" />
+      <workItem from="1512150557649" duration="57000" />
+      <workItem from="1512382703473" duration="236000" />
+      <workItem from="1512442300375" duration="263000" />
+      <workItem from="1512482302162" duration="1589000" />
+      <workItem from="1512491532156" duration="115000" />
+      <workItem from="1512520061065" duration="14000" />
+      <workItem from="1512568749497" duration="8051000" />
+      <workItem from="1512606851427" duration="123000" />
+      <workItem from="1512607535408" duration="5511000" />
+      <workItem from="1512660906025" duration="733000" />
+      <workItem from="1512661667270" duration="6223000" />
+      <workItem from="1512861198095" duration="372000" />
+      <workItem from="1513017391231" duration="36000" />
+      <workItem from="1513017528929" duration="598000" />
+      <workItem from="1513018916160" duration="5889000" />
+      <workItem from="1513029754944" duration="722000" />
+      <workItem from="1513033097727" duration="36000" />
+      <workItem from="1513033407666" duration="43000" />
+      <workItem from="1513033456136" duration="769000" />
+      <workItem from="1513046475486" duration="34000" />
+      <workItem from="1513075640406" duration="456000" />
+      <workItem from="1513090400290" duration="184000" />
+      <workItem from="1513090904808" duration="109000" />
+      <workItem from="1513092502284" duration="1236000" />
+      <workItem from="1513123560568" duration="876000" />
+      <workItem from="1513125163666" duration="234000" />
+      <workItem from="1513209894802" duration="4000" />
+      <workItem from="1513213301159" duration="397000" />
+      <workItem from="1513243433107" duration="5000" />
+      <workItem from="1513251088229" duration="20000" />
+      <workItem from="1513264014112" duration="845000" />
+      <workItem from="1513266667542" duration="3093000" />
+      <workItem from="1513291757922" duration="632000" />
+      <workItem from="1513328785470" duration="28000" />
+      <workItem from="1513330373719" duration="26000" />
+      <workItem from="1513349301897" duration="599000" />
+      <workItem from="1513351005430" duration="3306000" />
+      <workItem from="1513354352996" duration="59000" />
+      <workItem from="1513359303801" duration="11000" />
+      <workItem from="1513361983284" duration="23000" />
+      <workItem from="1513364407479" duration="1082000" />
+      <workItem from="1513371251914" duration="362000" />
+      <workItem from="1513384205872" duration="159000" />
+      <workItem from="1513635262907" duration="338000" />
+      <workItem from="1513635688868" duration="757000" />
+      <workItem from="1513642961278" duration="90000" />
+      <workItem from="1513648941111" duration="846000" />
+      <workItem from="1513682067583" duration="13000" />
+      <workItem from="1513683194849" duration="182000" />
+      <workItem from="1513697101697" duration="2070000" />
+      <workItem from="1514059597385" duration="1459000" />
+      <workItem from="1514653971053" duration="14000" />
+      <workItem from="1514906652604" duration="9616000" />
+      <workItem from="1514936416776" duration="628000" />
+      <workItem from="1514977056021" duration="8846000" />
+      <workItem from="1514988065898" duration="2696000" />
+      <workItem from="1514992286557" duration="2886000" />
+      <workItem from="1514995447575" duration="240000" />
+      <workItem from="1514997884376" duration="3543000" />
+      <workItem from="1515017498469" duration="225000" />
+      <workItem from="1515018675171" duration="114000" />
+      <workItem from="1515018870156" duration="534000" />
+      <workItem from="1515024037671" duration="332000" />
+      <workItem from="1515032962544" duration="74000" />
+      <workItem from="1515057895505" duration="1373000" />
+      <workItem from="1515063712107" duration="11000" />
+      <workItem from="1515068280786" duration="607000" />
+      <workItem from="1515077833075" duration="23000" />
+      <workItem from="1515082264049" duration="599000" />
+      <workItem from="1515162619878" duration="2209000" />
+      <workItem from="1515173452825" duration="3573000" />
+      <workItem from="1515184617551" duration="839000" />
+      <workItem from="1515186382567" duration="11000" />
+      <workItem from="1515193366014" duration="3300000" />
+      <workItem from="1515363994665" duration="1260000" />
+      <workItem from="1515367493747" duration="279000" />
+      <workItem from="1515413261445" duration="10713000" />
+      <workItem from="1515432430250" duration="106000" />
+      <workItem from="1515433709505" duration="806000" />
+      <workItem from="1515437409838" duration="2187000" />
+      <workItem from="1515496647264" duration="104000" />
+      <workItem from="1515496908255" duration="885000" />
+      <workItem from="1515510911581" duration="1122000" />
+      <workItem from="1515513130650" duration="2000" />
+      <workItem from="1515599166268" duration="1812000" />
+      <workItem from="1515603991923" duration="35000" />
+      <workItem from="1515607920461" duration="7000" />
+      <workItem from="1515609270227" duration="61000" />
+      <workItem from="1515626150806" duration="517000" />
+      <workItem from="1515628856683" duration="19000" />
+      <workItem from="1515663274325" duration="15000" />
+      <workItem from="1515669595754" duration="141000" />
+      <workItem from="1515670290503" duration="1480000" />
+      <workItem from="1515678213845" duration="38000" />
+      <workItem from="1515685130292" duration="16000" />
+      <workItem from="1515686878331" duration="6464000" />
+      <workItem from="1515762427173" duration="552000" />
+      <workItem from="1515763916724" duration="249000" />
+      <workItem from="1516102728878" duration="36000" />
+      <workItem from="1517589068843" duration="555000" />
+      <workItem from="1517835441236" duration="46000" />
+      <workItem from="1517843543830" duration="308000" />
+      <workItem from="1517928770094" duration="69000" />
+      <workItem from="1517930500042" duration="3532000" />
+      <workItem from="1518044736643" duration="58000" />
+      <workItem from="1537193682009" duration="1870000" />
+      <workItem from="1537746850941" duration="1519000" />
+      <workItem from="1537748507602" duration="1867000" />
+      <workItem from="1537798751191" duration="311000" />
+      <workItem from="1540770248897" duration="353000" />
+      <workItem from="1540834701996" duration="636000" />
+      <workItem from="1540898865014" duration="132000" />
+      <workItem from="1541429080586" duration="1110000" />
+      <workItem from="1541435973218" duration="142000" />
+      <workItem from="1541524904786" duration="826000" />
+      <workItem from="1541525849573" duration="1218000" />
+      <workItem from="1541539455842" duration="49000" />
+      <workItem from="1542036702925" duration="91000" />
+      <workItem from="1542037849699" duration="179000" />
+      <workItem from="1542038144944" duration="16000" />
+      <workItem from="1542044081270" duration="1077000" />
+      <workItem from="1542066898662" duration="942000" />
+      <workItem from="1542123552025" duration="3386000" />
+      <workItem from="1542142406235" duration="23000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="572671000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="67" width="1920" height="1177" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18477103" />
+      <window_info id="Structure" order="1" weight="0.18976545" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Nl-Palette" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Image Layers" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.19340974" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29326048" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37074584" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.30783242" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Flutter Outline" />
+      <window_info anchor="right" id="Flutter Inspector" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.1805668" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.32998705" />
+      <window_info anchor="right" id="Properties" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Database" order="9" weight="0.32998705" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37004048" />
+      <window_info id="Structure" order="1" weight="0.18976545" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Nl-Palette" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Image Layers" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.19340974" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29369628" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37074584" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.30802292" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.1805668" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.32998705" />
+      <window_info anchor="right" id="Properties" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Database" order="9" weight="0.32998705" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/utils/gui/CallCenterGUI.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/utils/gui/CallCenterGUI.java</url>
+          <line>421</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/utils/gui/CallCenterGUI.java</url>
+          <line>124</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/colecoes/iteraveis/lineares/ordenadas/utilizacao/MainTeoricaListaDuplaCircularBaseLimiteOrdenada.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/colecoes/iteraveis/associativas/utilizacao/MainTeoricaTabelaHashPorSondagemComIncrementoLinear.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/colecoes/iteraveis/associativas/utilizacao/MainTeoricaTabelaHashPorSondagemComIncrementoQuadratico.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/colecoes/iteraveis/associativas/utilizacao/MainTeoricaTabelaHashPorSondagemComIncrementoPorHash.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>GestorContactos.INSTANCIA</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../Resolucoes Teoricas/Resolucoes.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/utils/EstatisticaDeIteracoes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/utils/EstatisticaDeComparacoesETrocas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/utils/EstatisticaDeChamadasEMovimentos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/utils/VetorDeInteiros.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-165">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/analisecomplexidade/utilizacao/MainPraticaFibonacciIterativo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/analisecomplexidade/utilizacao/MainPraticaPontosMaisProximos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-202">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/analisecomplexidade/utilizacao/MainTeoricaComparacaoSubsequenciaSomaMaxima.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/analisecomplexidade/utilizacao/MainTeoricaSubsequenciaSomaMaximaDeOrdemN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/analisecomplexidade/utilizacao/MainTeoricaSubsequenciaSomaMaximaDeOrdemN2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/analisecomplexidade/algoritmos/Maximo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/analisecomplexidade/utilizacao/MainTeoricaSubsequenciaSomaMaximaDeOrdemN3.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/analisecomplexidade/utilizacao/MainTeoricaSubsequenciaSomaMaximaDeOrdemNLog2N.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/analisecomplexidade/algoritmos/PontosMaisProximos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/analisecomplexidade/algoritmos/FibonacciIterativo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/pesquisa/algoritmos/PesquisaBinaria.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/recursividade/algoritmos/Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/recursividade/algoritmos/Fatorial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/analisecomplexidade/algoritmos/SubsequenciaSomaMaxima.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/analisecomplexidade/utilizacao/MainTeoricaSubsequenciaSomaMaximaDeOrdemN3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resolucoes.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/analisecomplexidade/utilizacao/MainPraticaMaximo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/utils/visualizacao/VisualizadorEstatisticas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-307">
+          <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/utils/visualizacao/JanelaGraficos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/utils/visualizacao/Grafico.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/utils/EstatisticaDeComparacoes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/utils/EstatisticaDeChamadas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/utils/Estatistica.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/colecoes/iteraveis/lineares/naoordenadas/estruturas/ListaDuplaCircularBaseNaoOrdenada.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/pt.ipleiria.estg.dei.aed.colecoes.iteraveis.lineares.naoordenadas.estruturas.ListaDuplaCircularBaseNaoOrdenada">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>pt.ipleiria.estg.dei.aed.colecoes.iteraveis.lineares.naoordenadas.estruturas.ListaDuplaCircularBaseNaoOrdenada</OriginalElement>
+          <nodes>
+            <node x="0.0" y="1450.5">pt.ipleiria.estg.dei.aed.colecoes.iteraveis.lineares.naoordenadas.estruturas.ListaDuplaCircularBaseNaoOrdenada.No</node>
+            <node x="48.875" y="840.0">pt.ipleiria.estg.dei.aed.colecoes.iteraveis.lineares.naoordenadas.estruturas.ListaDuplaCircularBaseNaoOrdenada</node>
+            <node x="118.87500000000001" y="628.0">pt.ipleiria.estg.dei.aed.colecoes.iteraveis.lineares.naoordenadas.ColecaoIteravelLinearNaoOrdenada</node>
+            <node x="136.125" y="113.0">pt.ipleiria.estg.dei.aed.colecoes.Colecao</node>
+            <node x="125.87500000000001" y="226.0">pt.ipleiria.estg.dei.aed.colecoes.iteraveis.ColecaoIteravel</node>
+            <node x="290.0" y="1428.0">pt.ipleiria.estg.dei.aed.colecoes.iteraveis.lineares.naoordenadas.estruturas.ListaDuplaCircularBaseNaoOrdenada.Iterador</node>
+            <node x="246.125" y="80.0">java.lang.Iterable</node>
+            <node x="56.25" y="0.0">java.io.Serializable</node>
+            <node x="125.37500000000001" y="394.0">pt.ipleiria.estg.dei.aed.colecoes.iteraveis.lineares.ColecaoIteravelLinear</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="pt.ipleiria.estg.dei.aed.colecoes.iteraveis.lineares.naoordenadas.ColecaoIteravelLinearNaoOrdenada" target="pt.ipleiria.estg.dei.aed.colecoes.iteraveis.lineares.ColecaoIteravelLinear">
+              <point x="0.0" y="-81.0" />
+              <point x="0.0" y="92.0" />
+            </edge>
+            <edge source="pt.ipleiria.estg.dei.aed.colecoes.iteraveis.lineares.naoordenadas.estruturas.ListaDuplaCircularBaseNaoOrdenada" target="pt.ipleiria.estg.dei.aed.colecoes.iteraveis.lineares.naoordenadas.ColecaoIteravelLinearNaoOrdenada">
+              <point x="0.0" y="-269.0" />
+              <point x="0.0" y="81.0" />
+            </edge>
+            <edge source="pt.ipleiria.estg.dei.aed.colecoes.iteraveis.lineares.naoordenadas.estruturas.ListaDuplaCircularBaseNaoOrdenada.No" target="pt.ipleiria.estg.dei.aed.colecoes.iteraveis.lineares.naoordenadas.estruturas.ListaDuplaCircularBaseNaoOrdenada">
+              <point x="45.25" y="-81.5" />
+              <point x="135.75" y="1403.0" />
+              <point x="142.625" y="1403.0" />
+              <point x="-93.75" y="269.0" />
+            </edge>
+            <edge source="pt.ipleiria.estg.dei.aed.colecoes.iteraveis.lineares.naoordenadas.estruturas.ListaDuplaCircularBaseNaoOrdenada.Iterador" target="pt.ipleiria.estg.dei.aed.colecoes.iteraveis.lineares.naoordenadas.estruturas.ListaDuplaCircularBaseNaoOrdenada">
+              <point x="-47.25" y="-104.0" />
+              <point x="337.25" y="1403.0" />
+              <point x="330.125" y="1403.0" />
+              <point x="93.75" y="269.0" />
+            </edge>
+            <edge source="pt.ipleiria.estg.dei.aed.colecoes.iteraveis.ColecaoIteravel" target="java.lang.Iterable">
+              <point x="55.25" y="-59.0" />
+              <point x="291.625" y="201.0" />
+              <point x="310.375" y="201.0" />
+              <point x="-64.25" y="48.0" />
+            </edge>
+            <edge source="pt.ipleiria.estg.dei.aed.colecoes.Colecao" target="java.io.Serializable">
+              <point x="0.0" y="-15.0" />
+              <point x="181.125" y="55.0" />
+              <point x="136.5" y="55.0" />
+              <point x="26.75" y="15.0" />
+            </edge>
+            <edge source="pt.ipleiria.estg.dei.aed.colecoes.iteraveis.lineares.naoordenadas.estruturas.ListaDuplaCircularBaseNaoOrdenada.Iterador" target="java.lang.Iterable">
+              <point x="47.25" y="-104.0" />
+              <point x="431.75" y="1403.0" />
+              <point x="438.875" y="1403.0" />
+              <point x="64.25" y="48.0" />
+            </edge>
+            <edge source="pt.ipleiria.estg.dei.aed.colecoes.iteraveis.lineares.naoordenadas.estruturas.ListaDuplaCircularBaseNaoOrdenada.No" target="java.io.Serializable">
+              <point x="-45.25" y="-81.5" />
+              <point x="45.25" y="1403.0" />
+              <point x="38.375" y="1403.0" />
+              <point x="38.375" y="55.0" />
+              <point x="83.0" y="55.0" />
+              <point x="-26.75" y="15.0" />
+            </edge>
+            <edge source="pt.ipleiria.estg.dei.aed.colecoes.iteraveis.lineares.ColecaoIteravelLinear" target="pt.ipleiria.estg.dei.aed.colecoes.iteraveis.ColecaoIteravel">
+              <point x="0.0" y="-92.0" />
+              <point x="0.0" y="59.0" />
+            </edge>
+            <edge source="pt.ipleiria.estg.dei.aed.colecoes.iteraveis.ColecaoIteravel" target="pt.ipleiria.estg.dei.aed.colecoes.Colecao">
+              <point x="-55.25" y="-59.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.598913043478261" x="607.0" y="155.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/colecoes/iteraveis/lineares/naoordenadas/estruturas/ListaSimplesNaoOrdenada.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="152" selection-start-line="152" selection-end-line="152" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/modelo/pessoas/comparadores/ComparacaoPessoasPorNomeAscendente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" selection-start-line="14" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/colecoes/iteraveis/lineares/naoordenadas/estruturas/ListaDuplaNaoOrdenada.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1470">
+          <caret line="104" selection-start-line="96" selection-end-line="97" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/colecoes/iteraveis/lineares/naoordenadas/estruturas/ListaSimplesCircularBaseNaoOrdenada.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="75" column="32" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/colecoes/iteraveis/lineares/naoordenadas/estruturas/ListaSimplesCircularBaseNaoOrdenadaDistinto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/colecoes/iteraveis/lineares/naoordenadas/estruturas/ListaSimplesCircularBaseNaoOrdenadaTestePratico1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/colecoes/iteraveis/lineares/ordenadas/estruturas/ListaDuplaCircularBaseLimiteOrdenada.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/modelo/pessoas/comparadores/ComparacaoPessoasPorBIAscendente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" column="1" selection-start-line="14" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/avaliacao_2018_2019/prova_escrita_continua/PesquisaBinariaCompleta.java" />
+    <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/avaliacao_2018_2019/prova_escrita_continua/PesquisaLinearCompletaEmSequenciaNaoOrdenada.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="32" lean-forward="true" selection-start-line="22" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/pesquisa/algoritmos/AlgoritmoPesquisa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="36" lean-forward="true" selection-start-line="16" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/avaliacao_2018_2019/prova_escrita_continua/AlgoritmoPesquisaCompleta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/avaliacao_2018_2019/prova_escrita_continua/MainAvaliacaoPesquisaBinariaCompleta.java" />
+    <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/avaliacao_2018_2019/prova_escrita_continua/MainTeoricaPesquisaLinearCompletaEmSequenciaNaoOrdenada.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/avaliacao_2018_2019/prova_escrita_continua/PesquisaLinearCompletaEmSequenciaOrdenada.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="35" lean-forward="true" selection-start-line="21" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/avaliacao_2018_2019/prova_escrita_continua/MainAvaliacaoPesquisaLinearCompletaEmSequenciaOrdenada.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="17" column="69" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/avaliacao_2018_2019/prova_escrita_continua/Automovel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/avaliacao_2018_2019/prova_escrita_continua/ComparacaoAutomoveis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/avaliacao_2018_2019/prova_escrita_continua/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/avaliacao_2018_2019/prova_escrita_continua/ComparacaoCars.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pt/ipleiria/estg/dei/aed/colecoes/iteraveis/lineares/ordenadas/estruturas/ListaSimplesCircularBaseLimiteOrdenada.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Resolucoes</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

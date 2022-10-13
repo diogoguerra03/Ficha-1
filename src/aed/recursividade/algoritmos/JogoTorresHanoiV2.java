@@ -32,7 +32,7 @@ public class JogoTorresHanoiV2 {
             torreA.preencherComDiscos();
 
             executar(numeroDiscos,torreA,torreB,torreC);
-        } catch (IllegalArgumentException e) {
+        } catch (Exception e) {
             System.out.println(e.getMessage());
         }
     }

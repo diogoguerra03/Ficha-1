@@ -1,10 +1,11 @@
 package aed.colecoes.iteraveis.lineares.naoordenadas.estruturas;
 
-import aed.colecoes.Colecao;
 import aed.colecoes.iteraveis.IteradorIteravel;
+import aed.colecoes.iteraveis.IteradorIteravelDuplo;
 import aed.colecoes.iteraveis.lineares.naoordenadas.ColecaoIteravelLinearNaoOrdenada;
 
 import java.io.Serializable;
+import java.util.NoSuchElementException;
 
 public class ListaDuplaNaoOrdenada<T> implements ColecaoIteravelLinearNaoOrdenada<T> {
 
@@ -12,9 +13,14 @@ public class ListaDuplaNaoOrdenada<T> implements ColecaoIteravelLinearNaoOrdenad
     private No noFinal;
     private int numeroElementos;
 
+    public ListaDuplaNaoOrdenada() {
+        noInicial = noFinal = null;
+        numeroElementos = 0;
+    }
+
     @Override
-    public IteradorIteravel<T> iterador() {
-        return null;
+    public IteradorIteravelDuplo<T> iterador() {
+        return new Iterador();
     }
 
     @Override
@@ -24,17 +30,19 @@ public class ListaDuplaNaoOrdenada<T> implements ColecaoIteravelLinearNaoOrdenad
 
     @Override
     public T remover(T elem) {
-        return null;
+        No no = getNo(elem);
+        return no != null ? removerNo(no) : null;
     }
 
     @Override
     public T removerPorReferencia(T elem) {
-        return null;
+        No no = getNoPorReferencia(elem);
+        return no != null ? removerNo(no) : null;
     }
 
     @Override
     public T remover(int indice) {
-        return null;
+        return removerNo(getNo(indice));
     }
 
     @Override
@@ -123,12 +131,54 @@ public class ListaDuplaNaoOrdenada<T> implements ColecaoIteravelLinearNaoOrdenad
 
     @Override
     public T removerDoInicio() {
-        return null;
+        if(numeroElementos == 0){
+            return null;
+        }
+        No aux = noInicial;
+        noInicial = aux.seguinte;
+        if (--numeroElementos == 0){
+            noFinal = null;
+        }
+        else{
+            noInicial.anterior = null;
+        }
+
+        return aux.elemento;
     }
 
     @Override
     public T removerDoFim() {
-        return null;
+        if (numeroElementos == 0){
+            return null;
+        }
+        No aux = noFinal;
+        noFinal = aux.anterior;
+        if (--numeroElementos == 0){
+            noInicial = null;
+        }
+        else{
+            noFinal.seguinte = null;
+        }
+
+        return aux.elemento;
+    }
+
+    private T removerNo(No no){
+        if (no == noInicial){
+            noInicial = noInicial.seguinte;
+        }
+        else{
+            no.anterior.seguinte = no.seguinte;
+        }
+
+        if(no == noFinal){
+            noFinal = noFinal.anterior;
+        }
+        else{
+            no.seguinte.anterior = no.anterior;
+        }
+        numeroElementos--;
+        return no.elemento;
     }
 
     protected class No implements Serializable {
@@ -157,6 +207,65 @@ public class ListaDuplaNaoOrdenada<T> implements ColecaoIteravelLinearNaoOrdenad
             }
 
         }
+    }
+
+    protected class Iterador implements IteradorIteravelDuplo<T> {
+        protected No anterior;
+        protected No corrente;
+        protected No seguinte;
+
+        public Iterador() {
+
+        }
+
+        @Override
+        public void reiniciar() {
+            anterior = noFinal;
+            seguinte = noInicial;
+            corrente = null;
+        }
+
+        @Override
+        public T corrente() {
+            if (corrente == null) {
+                throw new NoSuchElementException();
+            }
+            return corrente.elemento;
+        }
+
+        @Override
+        public boolean podeAvancar() {
+            return seguinte != null;
+        }
+
+        @Override
+        public T avancar() {
+            if (!podeAvancar()){
+                throw new NoSuchElementException();
+            }
+            anterior = corrente;
+            corrente = seguinte;
+            seguinte = seguinte.seguinte;
+            return corrente.elemento;
+        }
+
+        @Override
+        public boolean podeRecuar(){
+            return anterior != null;
+        }
+
+        @Override
+        public T recuar(){
+            if (!podeRecuar()){
+                throw new NoSuchElementException();
+            }
+            seguinte = corrente;
+            corrente = anterior;
+            anterior = anterior.anterior;
+
+            return corrente.elemento;
+        }
+
     }
 }
 

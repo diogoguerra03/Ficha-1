@@ -196,6 +196,9 @@ public class ListaSimplesCircularBaseOrdenada<T> implements ColecaoIteravelLinea
 
         // Criação de nó com elemento elem e inserção após o nó ant
         protected No(T elem, No ant) {
+            if (elem == null) {
+                throw new IllegalArgumentException();
+            }
             elemento = elem;
             seguinte = ant.seguinte;
             ant.seguinte = this;

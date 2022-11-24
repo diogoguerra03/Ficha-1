@@ -1,7 +1,7 @@
 package aed.colecoes.iteraveis.lineares.naoordenadas.estruturas;
 
 import aed.colecoes.iteraveis.ColecaoIteravel;
-import aed.colecoes.iteraveis.IteradorIteravel;
+import aed.colecoes.iteraveis.IteradorIteravelDuplo;
 import aed.colecoes.iteraveis.lineares.naoordenadas.ColecaoIteravelLinearNaoOrdenada;
 
 import java.io.Serializable;
@@ -15,72 +15,74 @@ import java.util.NoSuchElementException;
  * João Ramos<joao.f.ramos@ipleiria.pt>
  * Original code: José Magno<jose.magno@ipleiria.pt>
  */
-public class ListaSimplesCircularBaseNaoOrdenada<T> implements ColecaoIteravelLinearNaoOrdenada<T> {
+public class ListaDuplaCircularBaseNaoOrdenada<T> implements ColecaoIteravelLinearNaoOrdenada<T> {
     private static final long serialVersionUID = 1L;
 
     protected No base;
-    protected No noFinal;
     protected int numeroElementos;
 
-    public ListaSimplesCircularBaseNaoOrdenada() {
-        noFinal = base = new No();
+    public ListaDuplaCircularBaseNaoOrdenada() {
+        base = new No();
         numeroElementos = 0;
     }
 
-    public ListaSimplesCircularBaseNaoOrdenada(ColecaoIteravel<T> colecao) {
+    public ListaDuplaCircularBaseNaoOrdenada(ColecaoIteravel<T> colecao) {
         this();
-
         for (T elem : colecao) {
-            noFinal = new No(elem, noFinal);
+            new No(elem, base);
         }
-
         numeroElementos = colecao.getNumeroElementos();
     }
 
-
-    protected No getNoAnterior(T elem) {
-        No ant = base;
-        while (ant.seguinte != base && !ant.seguinte.elemento.equals(elem)) {
-            ant = ant.seguinte;
+    protected No getNo(T elem) {
+        No cor = base.seguinte;
+        while (cor != base && !cor.elemento.equals(elem)) {
+            cor = cor.seguinte;
         }
-
-        return ant;
+        return cor;
     }
 
-    protected No getNoAnteriorPorReferencia(T elem) {
-        No ant = base;
-        while (ant.seguinte != base && ant.seguinte.elemento != elem) {
-            ant = ant.seguinte;
+    protected No getNoPorReferencia(T elem) {
+        No cor = base.seguinte;
+        while (cor != base && cor.elemento != elem) {
+            cor = cor.seguinte;
         }
 
-        return ant;
+        return cor;
     }
 
-    protected No getNoAnterior(int indice) {
+    protected No getNo(int indice) {
         if (indice < 0 || indice >= numeroElementos) {
             throw new IndexOutOfBoundsException();
         }
 
-        No ant = base;
-        while (indice-- > 0) {
-            ant = ant.seguinte;
+        No cor;
+        if (indice < numeroElementos / 2) {
+            cor = base.seguinte;
+
+            while (indice-- > 0) {
+                cor = cor.seguinte;
+            }
+        } else {
+            cor = base.anterior;
+
+            while (++indice < numeroElementos) {
+                cor = cor.anterior;
+            }
         }
 
-        return ant;
+        return cor;
     }
 
     @Override
     public void inserirNoInicio(T elem) {
-        new No(elem, base);
-
-        if (++numeroElementos == 1) {
-            noFinal = base.seguinte;
-        }
+        new No(elem, base.seguinte);
+        numeroElementos++;
     }
 
     @Override
     public void inserirNoFim(T elem) {
-        noFinal = new No(elem, noFinal);
+        new No(elem, base);
         numeroElementos++;
     }
 
@@ -89,88 +91,61 @@ public class ListaSimplesCircularBaseNaoOrdenada<T> implements ColecaoIteravelLi
         if (indice == numeroElementos) {
             inserirNoFim(elem);
         } else {
-            new No(elem, getNoAnterior(indice));
+            new No(elem, getNo(indice));
             numeroElementos++;
         }
     }
 
+    private T removerNo(No no) {
+        no.anterior.seguinte = no.seguinte;
+        no.seguinte.anterior = no.anterior;
+        numeroElementos--;
+
+        return no.elemento;
+    }
+
     @Override
     public T removerDoInicio() {
-        if (numeroElementos == 0) {
-            return null;
-        }
-
-        No aux = base.seguinte;
-
-        base.seguinte = aux.seguinte;
-
-        if (--numeroElementos == 0) {
-            noFinal = base;
-        }
-
-        return aux.elemento;
+        return numeroElementos > 0 ? removerNo(base.seguinte) : null;
     }
 
     @Override
     public T removerDoFim() {
-        if (numeroElementos == 0) {
-            return null;
-        }
-
-        No ant = getNoAnterior(numeroElementos - 1);
-        No aux = ant.seguinte;
-        ant.seguinte = base;
-        noFinal = ant;
-        numeroElementos--;
-
-        return aux.elemento;
-    }
-
-    private T removerNoSeguinte(No ant) {
-        No aux = ant.seguinte;
-
-        if (aux == noFinal) {
-            noFinal = ant;
-        }
-
-        ant.seguinte = aux.seguinte;
-        numeroElementos--;
-
-        return aux.elemento;
+        return numeroElementos > 0 ? removerNo(base.anterior) : null;
     }
 
     @Override
     public T remover(T elem) {
-        No ant = getNoAnterior(elem);
+        No no = getNo(elem);
 
-        return ant.seguinte != base ? removerNoSeguinte(ant) : null;
+        return no != base ? removerNo(no) : null;
     }
 
     @Override
     public T removerPorReferencia(T elem) {
-        No ant = getNoAnteriorPorReferencia(elem);
+        No no = getNoPorReferencia(elem);
 
-        return ant.seguinte != base ? removerNoSeguinte(ant) : null;
+        return no != base ? removerNo(no) : null;
     }
 
     @Override
     public T remover(int indice) {
-        return removerNoSeguinte(getNoAnterior(indice));
+        return removerNo(getNo(indice));
     }
 
     @Override
     public T consultar(int indice) {
-        return getNoAnterior(indice).seguinte.elemento;
+        return getNo(indice).elemento;
     }
 
     @Override
     public boolean contem(T elem) {
-        return getNoAnterior(elem).seguinte != base;
+        return getNo(elem) != base;
     }
 
     @Override
     public boolean contemReferencia(T elem) {
-        return getNoAnteriorPorReferencia(elem).seguinte != base;
+        return getNoPorReferencia(elem) != base;
     }
 
     @Override
@@ -179,14 +154,14 @@ public class ListaSimplesCircularBaseNaoOrdenada<T> implements ColecaoIteravelLi
     }
 
     @Override
-    public IteradorIteravel<T> iterador() {
+    public IteradorIteravelDuplo<T> iterador() {
         return new Iterador();
     }
 
     @Override
     public String toString() {
         StringBuilder s = new StringBuilder();
-        s.append("Lista Simples Circular Base Não Ordenada = {\n");
+        s.append("Lista Dupla Circular Base Não Ordenada = {\n");
         No aux = base.seguinte;
         while (aux != base) {
             s.append(aux.elemento).append("\n");
@@ -201,26 +176,29 @@ public class ListaSimplesCircularBaseNaoOrdenada<T> implements ColecaoIteravelLi
         private static final long serialVersionUID = 1L;
 
         protected T elemento;
+        protected No anterior;
         protected No seguinte;
 
         // Criação do nó base
-        protected No() {
+        public No() {
             elemento = null;
-            seguinte = this;
+            seguinte = anterior = this;
         }
 
-        // Criação de nó com elemento elem e inserção após o nó ant (!= null)
-        protected No(T elem, No ant) {
+        // Criação de nó com elemento elem e inserção antes do nó seg
+        public No(T elem, No seg) {
             elemento = elem;
-            seguinte = ant.seguinte;
-            ant.seguinte = this;
+            anterior = seg.anterior;
+            seguinte = seg;
+            anterior.seguinte = seguinte.anterior = this;
         }
     }
 
-    protected class Iterador implements IteradorIteravel<T> {
+
+    protected class Iterador implements IteradorIteravelDuplo<T> {
         protected No corrente;
 
-        protected Iterador() {
+        public Iterador() {
             reiniciar();
         }
 
@@ -234,7 +212,6 @@ public class ListaSimplesCircularBaseNaoOrdenada<T> implements ColecaoIteravelLi
             if (corrente == base) {
                 throw new NoSuchElementException();
             }
-
             return corrente.elemento;
         }
 
@@ -248,8 +225,21 @@ public class ListaSimplesCircularBaseNaoOrdenada<T> implements ColecaoIteravelLi
             if (!podeAvancar()) {
                 throw new NoSuchElementException();
             }
-
             corrente = corrente.seguinte;
+            return corrente.elemento;
+        }
+
+        @Override
+        public boolean podeRecuar() {
+            return corrente.anterior != base;
+        }
+
+        @Override
+        public T recuar() {
+            if (!podeRecuar()) {
+                throw new NoSuchElementException();
+            }
+            corrente = corrente.anterior;
             return corrente.elemento;
         }
     }

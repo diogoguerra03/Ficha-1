@@ -1,5 +1,7 @@
 package aed.modelo.contactos;
 
+import java.util.Objects;
+
 public class Contacto {
     private String primeiroNome;
     private String ultimoNome;
@@ -43,5 +45,18 @@ public class Contacto {
                 " - Nº: " + numeroTelefone +
                 " - " + morada +
                 " - " + dataNascimento;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Contacto contacto = (Contacto) o;
+        return numeroTelefone == contacto.numeroTelefone && Objects.equals(primeiroNome, contacto.primeiroNome) && Objects.equals(ultimoNome, contacto.ultimoNome) && Objects.equals(morada, contacto.morada) && Objects.equals(dataNascimento, contacto.dataNascimento);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(primeiroNome, ultimoNome, numeroTelefone, morada, dataNascimento);
     }
 }

@@ -2,7 +2,7 @@ package aed.modelo.contactos;
 
 import aed.colecoes.iteraveis.IteradorIteravelDuplo;
 import aed.colecoes.iteraveis.lineares.ordenadas.estruturas.ListaDuplaCircularBaseOrdemMaximaOrdenada;
-import aed.modelo.contactos.comparadores.ComparacaoContactoPorPrimeiroNomeAscSegPorDataNascimentoDesc;
+import aed.modelo.contactos.comparadores.ComparacaoContactosPorPrimeiroNomeAscendenteSegPorUltimoNomeAscendente;
 
 import java.util.Objects;
 
@@ -12,8 +12,7 @@ public class GestorContactosDataNascimento {
 
     public GestorContactosDataNascimento(Data dataNascimento) {
         this.dataNascimento = dataNascimento;
-        contactos = new ListaDuplaCircularBaseOrdemMaximaOrdenada<>
-                (ComparacaoContactoPorPrimeiroNomeAscSegPorDataNascimentoDesc.CRITERIO);
+        contactos = new ListaDuplaCircularBaseOrdemMaximaOrdenada<>(ComparacaoContactosPorPrimeiroNomeAscendenteSegPorUltimoNomeAscendente.CRITERIO);
     }
 
     @Override
@@ -37,7 +36,7 @@ public class GestorContactosDataNascimento {
         contactos.inserir(contacto);
     }
 
-    public Contacto remover(Contacto contacto){
+    public Contacto remover(Contacto contacto) {
         return contactos.remover(contacto);
     }
 

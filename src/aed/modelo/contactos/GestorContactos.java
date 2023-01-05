@@ -2,7 +2,6 @@ package aed.modelo.contactos;
 
 import aed.colecoes.iteraveis.IteradorIteravelDuplo;
 import aed.colecoes.iteraveis.lineares.naoordenadas.estruturas.ListaDuplaCircularBaseNaoOrdenada;
-import aed.colecoes.iteraveis.lineares.naoordenadas.estruturas.ListaDuplaNaoOrdenada;
 import aed.colecoes.iteraveis.lineares.ordenadas.estruturas.ListaDuplaCircularBaseOrdemMaximaOrdenadaDistinta;
 import aed.modelo.contactos.comparadores.ComparacaoGestorContactosDataNascimentoAsc;
 
